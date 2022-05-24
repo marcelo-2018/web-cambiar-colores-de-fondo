@@ -4,8 +4,14 @@ const template = document.querySelector("#template");
 const fragment = document.createDocumentFragment();
 const body = document.querySelector("#body");
 
+let bandera = 0;
 
 botonAgregar.addEventListener("click", () => {
+
+    if(bandera === 1){
+        console.log("Ya agergaste los botones");
+        return;
+    }
 
     console.log("Agregaste los botones");
     
@@ -37,6 +43,8 @@ botonAgregar.addEventListener("click", () => {
             body.className = "btn-info";
         }
     });
+
+    bandera++;
     
 });
 
