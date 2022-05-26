@@ -6,11 +6,11 @@ Sitio web de practica que cambia  el color de fondo de la pantalla mediante boto
 ## Capturas de la web
 
 ### Escritorio
-![desktop](/DOM%20fundamentos/Event%20Delegation/Fotos/desktop.png)
+![desktop](Fotos/desktop.png)
 
 ### Mobil
 
-![Mobil](/DOM%20fundamentos/Event%20Delegation/Fotos/mobil.jpg)
+![Mobil](Fotos/mobil.jpg)
 
 ## body
 ````html
